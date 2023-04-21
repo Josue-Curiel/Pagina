@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/fondo.avif);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px ;
+    height: 70px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #e4cda7;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #ce967b;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 100px;
+    line-height: 150px;
+    color: #ceaf81;
+    -webkit-text-stroke: 2px #ceaf81;
+    color: transparent; 
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #e7b094;
+}
+
+
+
+.historia{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/Pastor.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 130px 0;
+}
+
+.historia-content{
+    text-align: center;
+}
+
+.historia-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.historia-content p{
+    font-size: 16px;
+    color: #e4cda7 ;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.preguntas{
+    padding: 100px 0;
+    background-color: #8e806a;
+    position: relative;
+}
+
+.preguntas-content{
+    text-align: center;
+}
+
+.preguntas-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #50483b;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.preguntas-1 p{
+    color: #e4cda7;
+}
+
+.preguntas-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.preguntas-1{
+    padding: 50px 84px;
+}
+
+
+.biblia{
+    width: 240px;
+}
+
+.iglesia{
+    width: 150px;
+}
+
+.cruz{
+    width: 120px;
+}
+
+.preguntas-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.preguntas-1 h3{
+    color: #50483b;
+    font-size: 20px;
+    margin-bottom: 15px;
+} 
+
+.Actividad{
+    display: flex;
+}
+
+.Actividad-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #c3b091;
+}
+
+.Actividad-2{
+    background-image: url(images/Niños.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.Actividad-3{
+    background-image: url(images/alianza.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #50483b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #000000;
+    margin: 25px 0 45px 0;
+}
+
+.servicio{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #8e806a;
+    position: relative;
+}
+
+.servicio-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicio-1{
+    padding: 15px 55px;
+}
+
+.servicio-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.servicio-1 h3{
+    font-size:  25px;
+    color: #50483b;
+}
+
+.servicio-1 p{
+    color: #e4cda7;
+}
+
+.com{
+    min-height: 190px;
+}
+
+.footer{
+    padding: 100px 0;
+    background-color: #000;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-1 img{
+    width: 130px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.link-2 img{
+    width: 260px;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.link-3 img{
+    width: 150px;
+    border-radius: 15px;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+.link-4 img{
+    width: 210px;
+    border-radius: 15px;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+@media(max-width:991px){
+
+    .menu{
+        padding: 0px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 80px 30px;
+    }
+
+    .header h1{
+        font-size: 70px;
+    }
+
+    .preguntas{
+        padding: 30px;
+    }
+
+    .preguntas-content h2{
+        padding: 0;
+    }
+
+    .txt p{
+        padding: 0;
+    }
+
+    .preguntas-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .preguntas-img{
+        display: none;
+    }
+
+    .historia{
+        padding: 30px;
+    }
+
+    .historia-content p{
+        padding: 0;
+    }
+
+    .Actividad{
+        flex-direction: column;
+    }
+
+    .Actividad-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .Actividad-2,.Actividad-3{
+        display: none;
+    }
+
+    .servicio{
+        padding: 30px;
+    }
+
+    .servicio-content{
+        flex-direction: column;
+    }
+
+    .servicio-1{
+        padding: 0;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link-1{
+        margin-right:  50px;
+    }
+
+    .link-2{
+        margin-right:  50px;
+    }
+
+    .link-3{
+        margin-left:  25px;
+    }
+
+    .link-4{
+        margin-left:  15px;
+    }
+
+
+
+
+}
